@@ -42,7 +42,7 @@ MIDDLEWARE = [
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
 ]
 
-ROOT_URLCONF = 'django_app.urls'
+ROOT_URLCONF = 'TelegramBotProject.urls'
 
 TEMPLATES = [
     {
@@ -60,7 +60,7 @@ TEMPLATES = [
     },
 ]
 
-WSGI_APPLICATION = 'django_app.wsgi.application'
+WSGI_APPLICATION = 'TelegramBotProject.wsgi.application'
 
 TELEGRAM_BOT_TOKEN = '6415852799:AAFZh2VZce4uMzXE2EcmzVj_n8Id2qa0HJQ'
 
